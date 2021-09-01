@@ -39,6 +39,8 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'authy',
+    'classroom',
+    'quiz',
 
 ]
 
@@ -134,6 +136,11 @@ MEDIA_ROOT =  os.path.join(BASE_DIR, 'media')
 LOGIN_REDIRECT_URL = 'index'
 LOGOUT_REDIRECT_URL = 'login'
 LOGIN_URL = '/user/login'
+
+#third party apps     
+CKEDITOR_UPLOAD_PATH = "uploads/"
+
+
 # Default primary key field type
 # https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field
 
