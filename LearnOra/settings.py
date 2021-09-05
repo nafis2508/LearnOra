@@ -37,8 +37,19 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'django.contrib.humanize',
+    'ckeditor',
+    'ckeditor_uploader',
     'authy',
     'classroom',
+    'module',
+    'page',
+    'quiz',
+    'assignment',
+    'question',
+    'completion',
+    'direct',
+    
 ]
 
 MIDDLEWARE = [

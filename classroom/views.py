@@ -1,7 +1,3 @@
-from django.shortcuts import render
-
-# Create your views here.
-
 from django.shortcuts import render, redirect, get_object_or_404
 from django.contrib.auth.decorators import login_required
 from django.http import HttpResponseForbidden
@@ -186,3 +182,4 @@ def GradeSubmission(request, course_id, grade_id):
 	}
 
 	return render(request, 'classroom/gradesubmission.html', context)
+

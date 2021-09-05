@@ -115,6 +115,3 @@ def EditProfile(request):
 	}
 
 	return render(request, 'registration/edit_profile.html', context)
-
-
-
