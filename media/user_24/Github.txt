@@ -1,0 +1,14 @@
+username: ayan978
+password: ayon.github119
+
+commands:
+
+git remote add origin "url"
+git remote set-url origin "url"
+
+git push origin main
+git push origin [branch name]
+
+git pull --rebase origin main
+
+git merge --abort   //Get back to the previous stage before merging
